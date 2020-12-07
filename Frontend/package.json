@@ -1,0 +1,38 @@
+{
+    "name": "ssafy-stock",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.21.0",
+        "bootstrap": "4.1.3",
+        "chart.js": "2.7.2",
+        "history": "4.7.2",
+        "node-sass": "^4.12.0",
+        "react": "^16.8.3",
+        "react-chartjs-2": "^2.7.4",
+        "react-dom": "^16.8.3",
+        "react-perfect-scrollbar": "1.2.0",
+        "react-router-dom": "4.2.2",
+        "react-scripts": "^3.4.1",
+        "reactstrap": "6.4.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "proxy": "http://k3a106.p.ssafy.io:8000",
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
